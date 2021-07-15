@@ -1,0 +1,268 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    background-color: rgb(233, 213, 233);
+}
+
+
+nav a{
+    text-decoration:none;
+    margin-right: 15px;
+    font-size:1.2em;
+    color: white;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1{
+    padding:0px;
+    position:absolute;
+    width:900px;
+    height:44px;
+    margin-left:156px;
+    margin-top:42px;
+    margin-right:124;
+    margin-bottom:591px;
+    
+}
+
+.heading{
+    margin-left:156px;
+    margin-right:180px;
+    width:800px;
+    height:330px;
+    
+
+}
+.heading h1{
+    font-size:50px;
+    font-weight:700;
+    color:white;
+    
+}
+.heading a{
+    text-decoration: none;
+    font-size:30px;
+    font-weight:700;
+    color:black;
+    padding:10px;
+    border-radius:10px;
+    background-image:linear-gradient(orange,yellow);
+}
+
+.hpic img{
+    width:500px;
+    height:400px;
+    margin-left:10px;
+    margin-right:124px;
+    
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color:purple;
+    margin-bottom:80px;
+    
+}
+  
+
+
+.container1{
+    margin-top:150px;
+    display:flex;
+    margin-bottom:60px;
+    
+}
+
+.first:hover .heading{
+    transform:scale(1.2);
+    border-radius:2px solid black;
+    background-color: rgba(236, 240, 13, 0.959);
+    transition:transform 2s ease-in-out;
+}
+.first:hover{
+    background-color:palevioletred;
+}
+
+@media only screen and(max-width:688px)
+{
+   .heading{
+       width:100%
+   }
+   .hpic{
+       width:100%;
+   }
+   .header1{
+       display: none;
+   }
+   .container1{
+       flex-direction: column;
+       flex-wrap: wrap;
+   }
+    .second{
+        flex-direction: column;
+    }
+    .singer{
+        width:100%;
+    }
+    .singers{
+    grid-template-columns:repeat(1,1fr);
+    }
+    
+        
+   
+
+}
+    
+.singers{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-row-gap:30px;
+    
+}
+
+.singer{
+    height:450px;
+    width:300px;
+    box-shadow: 20px 20px 50px grey;
+    border:10px solid white;
+    background-color: white;
+    margin-right:20px;
+    
+}
+
+
+
+.singer img{
+    width:300px;
+    height:200px;
+}
+
+.second{
+    padding:0;
+    margin-bottom:40px;
+    display:flex;
+    justify-content: center;
+    margin-left:20px;
+    
+}
+
+
+.third{
+    display:flex;
+    justify-content:center;
+    margin-top:150px;
+    margin-bottom:100px;
+    margin-left:140px;
+    margin-right:130px;
+    
+}
+
+.half{
+    width:50%;
+}
+.write a{
+    text-decoration: none;
+    font-size:15px;
+    font-weight:700;
+    color:black;
+    padding:10px;
+    border-radius: 10px;
+    background-image: linear-gradient(orange,yellow);
+
+}
+
+.write h1{
+    font-weight: 700;
+    font-size:40px;
+}
+.write{
+    margin-right:150px;
+}
+
+
+.video{
+    margin-top:100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 100px;
+    padding-bottom:100px;
+    margin-left:124px;
+    margin-right:124px;
+   
+}
+.songtitle1{
+    margin-left:-10px;
+    font-weight:700;
+    font-size:50px;
+    color:purple;
+}
+.songtitle2{
+    margin-left:-10px;
+    font-weight:700;
+    font-size:50px;
+    color:purple;
+}
+
+.v2{
+    background-image: url("media/images/Frame\ 59.jpg");
+    background-repeat: none;
+}
+
+.v1{
+    background-image: url("media/images/Frame\ 58.jpg");
+    background-repeat: none;
+}
+.logos{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.logo{
+    width:80px;
+    height:80px;
+    border-radius: 50%;;
+}
+.logo1{
+    margin-right:30px;
+}
+.logo1{
+    margin-left:30px;
+}
+
+.sign{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab, .far{
+    font-size:30px;
+    
+   
+}
+.bb{
+    margin-left:50px;
+}
+.aa{
+    margin-right:20px;
+}
+.dd{
+    margin-left:80px;
+}
+.cc{
+    margin-left:50px;
+}
+
+.end p{
+    text-align: center;
+}
